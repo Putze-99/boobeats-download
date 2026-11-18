@@ -59,17 +59,34 @@ plek (niet de map Downloads) en dubbelklik in de uitgepakte map op
 
 ## Installeren op de Mac
 
-Op de Mac heet de app voorlopig nog **MuziekHub**.
+> Tot en met versie 1.5.0 heet de app op de Mac nog **MuziekHub**. Heb je
+> zo'n versie, lees dan MuziekHub waar hieronder BooBeats staat.
 
-1. Dubbelklik op het `.dmg`-bestand en sleep **MuziekHub** op **Programma's**.
-2. Dubbelklik MuziekHub. Zegt je Mac dat de ontwikkelaar niet gecontroleerd
-   kan worden, ga dan naar **Systeeminstellingen > Privacy en beveiliging**,
-   scroll naar beneden en klik op **Toch openen**.
-3. Zegt je Mac *"MuziekHub is beschadigd"*? Open Terminal en plak:
+1. Dubbelklik op het `.dmg`-bestand en sleep **BooBeats** op het mapje
+   **Programma's** dat ernaast staat. Staat daar nog een oude **MuziekHub**?
+   Gooi die weg: dat is dezelfde app onder zijn oude naam. Je muziek en
+   instellingen blijven bewaard.
+2. Open **Programma's** en dubbelklik daar BooBeats. De eerste keer zegt je
+   Mac dat Apple niet kon controleren of BooBeats vrij is van malware. Klik op
+   **Gereed** (Engels: *Done*; op een oudere Mac: *OK*). Niet op
+   **Verplaats naar prullenmand**, dan gooi je de app weg.
+3. Open **Systeeminstellingen > Privacy en beveiliging**. Stond
+   Systeeminstellingen al open? Sluit het dan eerst helemaal af met **Cmd+Q**
+   en open het opnieuw, anders staat de knop er nog niet.
+4. Scroll naar het kopje **Beveiliging**. Daar staat *"BooBeats is
+   geblokkeerd om je Mac te beschermen"*. Klik ernaast op **Open toch**
+   (Engels: *Open Anyway*). Die knop blijft ongeveer een uur staan; is hij
+   weg, dubbelklik BooBeats dan nog een keer.
+5. Je Mac vraagt nog een keer of je het zeker weet. Kies weer **Open toch** en
+   bevestig met Touch ID of je wachtwoord. Daarna onthoudt je Mac het.
 
-   ```
-   xattr -dr com.apple.quarantine /Applications/MuziekHub.app
-   ```
+Zegt je Mac *"BooBeats is beschadigd en kan niet worden geopend"*? Dat is
+dezelfde beveiliging, strenger afgesteld. Open **Terminal** (Spotlight, typ
+"Terminal"), plak deze regel en druk op Enter:
+
+```
+xattr -dr com.apple.quarantine /Applications/BooBeats.app
+```
 
 ## Waarom die waarschuwing?
 
