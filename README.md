@@ -59,9 +59,6 @@ plek (niet de map Downloads) en dubbelklik in de uitgepakte map op
 
 ## Installeren op de Mac
 
-> Tot en met versie 1.5.0 heet de app op de Mac nog **MuziekHub**. Heb je
-> zo'n versie, lees dan MuziekHub waar hieronder BooBeats staat.
-
 1. Dubbelklik op het `.dmg`-bestand en sleep **BooBeats** op het mapje
    **Programma's** dat ernaast staat. Staat daar nog een oude **MuziekHub**?
    Gooi die weg: dat is dezelfde app onder zijn oude naam. Je muziek en
